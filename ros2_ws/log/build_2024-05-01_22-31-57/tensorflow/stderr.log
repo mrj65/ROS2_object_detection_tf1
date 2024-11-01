@@ -1,0 +1,6 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+package init file 'share/__init__.py' not found (or not a regular file)
+package init file 'prefix_override/__init__.py' not found (or not a regular file)
+package init file 'share/tensorflow/__init__.py' not found (or not a regular file)
+package init file 'share/tensorflow/hook/__init__.py' not found (or not a regular file)

@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_object_detection_msgs/msg/BoundingBoxes.msg
+// generated code does not contain a copyright notice
+
+#include "ros_object_detection_msgs/msg/BoundingBox.idl"
+
+module ros_object_detection_msgs {
+  module msg {
+    struct BoundingBoxes {
+      sequence<ros_object_detection_msgs::msg::BoundingBox> data;
+    };
+  };
+};

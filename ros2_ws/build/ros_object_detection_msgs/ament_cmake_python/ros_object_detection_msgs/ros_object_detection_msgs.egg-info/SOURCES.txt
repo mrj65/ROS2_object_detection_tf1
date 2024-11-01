@@ -1,0 +1,9 @@
+setup.py
+ros_object_detection_msgs/__init__.py
+ros_object_detection_msgs.egg-info/PKG-INFO
+ros_object_detection_msgs.egg-info/SOURCES.txt
+ros_object_detection_msgs.egg-info/dependency_links.txt
+ros_object_detection_msgs.egg-info/top_level.txt
+ros_object_detection_msgs/msg/__init__.py
+ros_object_detection_msgs/msg/_bounding_box.py
+ros_object_detection_msgs/msg/_bounding_boxes.py

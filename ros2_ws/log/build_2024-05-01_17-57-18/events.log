@@ -1,0 +1,941 @@
+[0.000000] (-) TimerEvent: {}
+[0.000751] (interface_tutorial) JobQueued: {'identifier': 'interface_tutorial', 'dependencies': OrderedDict()}
+[0.000794] (my-test-package) JobQueued: {'identifier': 'my-test-package', 'dependencies': OrderedDict()}
+[0.000818] (ros_object_detection_msgs) JobQueued: {'identifier': 'ros_object_detection_msgs', 'dependencies': OrderedDict()}
+[0.000837] (tensorflow) JobQueued: {'identifier': 'tensorflow', 'dependencies': OrderedDict()}
+[0.000853] (xla_aot_runtime_src) JobQueued: {'identifier': 'xla_aot_runtime_src', 'dependencies': OrderedDict()}
+[0.000869] (ros_object_detection) JobQueued: {'identifier': 'ros_object_detection', 'dependencies': OrderedDict([('interface_tutorial', '/home/vboxuser/Shared/ros2_ws/install/interface_tutorial'), ('ros_object_detection_msgs', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs')])}
+[0.001692] (interface_tutorial) JobStarted: {'identifier': 'interface_tutorial'}
+[0.008818] (ros_object_detection_msgs) JobStarted: {'identifier': 'ros_object_detection_msgs'}
+[0.012263] (my-test-package) JobStarted: {'identifier': 'my-test-package'}
+[0.016438] (tensorflow) JobStarted: {'identifier': 'tensorflow'}
+[0.021165] (interface_tutorial) JobProgress: {'identifier': 'interface_tutorial', 'progress': 'cmake'}
+[0.021481] (interface_tutorial) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/Shared/ros2_ws/src/interface_tutorial', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/Shared/ros2_ws/install/interface_tutorial'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/Shared/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TZ50M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble')]), 'shell': False}
+[0.024260] (ros_object_detection_msgs) JobProgress: {'identifier': 'ros_object_detection_msgs', 'progress': 'cmake'}
+[0.025043] (ros_object_detection_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/Shared/ros2_ws/src/ros_object_detection_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/Shared/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TZ50M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble')]), 'shell': False}
+[0.101827] (-) TimerEvent: {}
+[0.205238] (-) TimerEvent: {}
+[0.305772] (-) TimerEvent: {}
+[0.399773] (interface_tutorial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399993] (interface_tutorial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.400086] (interface_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400170] (interface_tutorial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400239] (interface_tutorial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.400332] (interface_tutorial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.400417] (interface_tutorial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.400488] (interface_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400638] (interface_tutorial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400713] (interface_tutorial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.400780] (interface_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.400888] (interface_tutorial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.400959] (interface_tutorial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.401623] (ros_object_detection_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401740] (ros_object_detection_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.401813] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401921] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.401994] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.402061] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.402127] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.402192] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.402257] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.402322] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.402422] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.402492] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.402557] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.425339] (-) TimerEvent: {}
+[0.529957] (-) TimerEvent: {}
+[0.571617] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.573865] (interface_tutorial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.648631] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.648803] (-) TimerEvent: {}
+[0.649646] (interface_tutorial) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.672041] (interface_tutorial) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.672497] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.675565] (interface_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.677102] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.682750] (interface_tutorial) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.683424] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.725259] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.725557] (interface_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.749386] (-) TimerEvent: {}
+[0.868892] (-) TimerEvent: {}
+[0.979118] (my-test-package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vboxuser/Shared/ros2_ws/build/my-test-package/build', '--no-deps'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/my-test-package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/Shared/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2124', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/Shared/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TZ50M2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/Shared/ros2_ws/build/my-test-package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/Shared/ros2_ws/build/my-test-package/prefix_override:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial'}, 'shell': False}
+[0.979733] (-) TimerEvent: {}
+[1.075887] (interface_tutorial) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.106608] (-) TimerEvent: {}
+[1.132547] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.206959] (-) TimerEvent: {}
+[1.288547] (interface_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.311491] (-) TimerEvent: {}
+[1.337041] (my-test-package) StdoutLine: {'line': b'running develop\n'}
+[1.337367] (my-test-package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.337511] (my-test-package) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.360011] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.438679] (-) TimerEvent: {}
+[1.509889] (tensorflow) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vboxuser/Shared/ros2_ws/build/tensorflow/build', '--no-deps'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/tensorflow', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/Shared/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2124', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/Shared/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TZ50M2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/Shared/ros2_ws/build/tensorflow', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/Shared/ros2_ws/build/tensorflow/prefix_override:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial'}, 'shell': False}
+[1.539431] (-) TimerEvent: {}
+[1.565280] (interface_tutorial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.599554] (interface_tutorial) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.600241] (interface_tutorial) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.610033] (my-test-package) StdoutLine: {'line': b'running egg_info\n'}
+[1.610327] (my-test-package) StdoutLine: {'line': b'creating my_test_package.egg-info\n'}
+[1.610897] (my-test-package) StdoutLine: {'line': b'writing my_test_package.egg-info/PKG-INFO\n'}
+[1.611285] (my-test-package) StdoutLine: {'line': b'writing dependency_links to my_test_package.egg-info/dependency_links.txt\n'}
+[1.611592] (my-test-package) StdoutLine: {'line': b'writing top-level names to my_test_package.egg-info/top_level.txt\n'}
+[1.612012] (my-test-package) StdoutLine: {'line': b"writing manifest file 'my_test_package.egg-info/SOURCES.txt'\n"}
+[1.613910] (my-test-package) StdoutLine: {'line': b"reading manifest file 'my_test_package.egg-info/SOURCES.txt'\n"}
+[1.614792] (my-test-package) StdoutLine: {'line': b"writing manifest file 'my_test_package.egg-info/SOURCES.txt'\n"}
+[1.633728] (interface_tutorial) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.634141] (interface_tutorial) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.634340] (interface_tutorial) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.634512] (interface_tutorial) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.644440] (-) TimerEvent: {}
+[1.645768] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.663988] (interface_tutorial) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.672998] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.673212] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.689565] (my-test-package) StdoutLine: {'line': b'running build_ext\n'}
+[1.690760] (my-test-package) StdoutLine: {'line': b'Creating /home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages/my-test-package.egg-link (link to .)\n'}
+[1.691717] (my-test-package) StdoutLine: {'line': b'\n'}
+[1.691846] (my-test-package) StdoutLine: {'line': b'Installed /home/vboxuser/Shared/ros2_ws/build/my-test-package\n'}
+[1.700604] (interface_tutorial) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.705428] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.705815] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.705975] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.706130] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.723367] (interface_tutorial) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.725387] (interface_tutorial) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.726693] (interface_tutorial) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.730668] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.732029] (interface_tutorial) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.765539] (my-test-package) CommandEnded: {'returncode': 0}
+[1.765905] (-) TimerEvent: {}
+[1.766037] (my-test-package) JobEnded: {'identifier': 'my-test-package', 'rc': 0}
+[1.766358] (xla_aot_runtime_src) JobStarted: {'identifier': 'xla_aot_runtime_src'}
+[1.766457] (interface_tutorial) StdoutLine: {'line': b'-- Generating done\n'}
+[1.768389] (interface_tutorial) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/Shared/ros2_ws/build/interface_tutorial\n'}
+[1.770591] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.771872] (xla_aot_runtime_src) JobProgress: {'identifier': 'xla_aot_runtime_src', 'progress': 'cmake'}
+[1.772621] (xla_aot_runtime_src) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/Shared/ros2_ws/tf-env/lib/python3.10/site-packages/tensorflow/xla_aot_runtime_src', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/Shared/ros2_ws/install/xla_aot_runtime_src'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/Shared/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TZ50M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial')]), 'shell': False}
+[1.782808] (xla_aot_runtime_src) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[1.783317] (xla_aot_runtime_src) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[1.783413] (xla_aot_runtime_src) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[1.784434] (xla_aot_runtime_src) StderrLine: {'line': b'  code such as\n'}
+[1.784592] (xla_aot_runtime_src) StderrLine: {'line': b'\n'}
+[1.784678] (xla_aot_runtime_src) StderrLine: {'line': b'    project(ProjectName)\n'}
+[1.784758] (xla_aot_runtime_src) StderrLine: {'line': b'\n'}
+[1.784836] (xla_aot_runtime_src) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[1.784915] (xla_aot_runtime_src) StderrLine: {'line': b'\n'}
+[1.785024] (xla_aot_runtime_src) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[1.785096] (xla_aot_runtime_src) StderrLine: {'line': b'  line.\n'}
+[1.785160] (xla_aot_runtime_src) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.785223] (xla_aot_runtime_src) StderrLine: {'line': b'\x1b[0m\n'}
+[1.785287] (interface_tutorial) CommandEnded: {'returncode': 0}
+[1.785673] (interface_tutorial) JobProgress: {'identifier': 'interface_tutorial', 'progress': 'build'}
+[1.785701] (interface_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/Shared/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TZ50M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble')]), 'shell': False}
+[1.802041] (ros_object_detection_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.804872] (ros_object_detection_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.806885] (ros_object_detection_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.815527] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.843819] (xla_aot_runtime_src) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.853267] (interface_tutorial) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.864686] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.866944] (-) TimerEvent: {}
+[1.868778] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs\n'}
+[1.889028] (ros_object_detection_msgs) CommandEnded: {'returncode': 0}
+[1.889534] (ros_object_detection_msgs) JobProgress: {'identifier': 'ros_object_detection_msgs', 'progress': 'build'}
+[1.889571] (ros_object_detection_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/Shared/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TZ50M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble')]), 'shell': False}
+[1.892275] (interface_tutorial) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.929275] (tensorflow) StdoutLine: {'line': b'running develop\n'}
+[1.930063] (tensorflow) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.930218] (tensorflow) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.934495] (interface_tutorial) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_interface_tutorial\n'}
+[1.956085] (xla_aot_runtime_src) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.967188] (-) TimerEvent: {}
+[1.969838] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.055008] (ros_object_detection_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.067422] (-) TimerEvent: {}
+[2.095636] (ros_object_detection_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.146008] (ros_object_detection_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_ros_object_detection_msgs\n'}
+[2.170027] (-) TimerEvent: {}
+[2.252223] (tensorflow) StdoutLine: {'line': b'running egg_info\n'}
+[2.252525] (tensorflow) StdoutLine: {'line': b'creating tensorflow.egg-info\n'}
+[2.253086] (tensorflow) StdoutLine: {'line': b'writing tensorflow.egg-info/PKG-INFO\n'}
+[2.253497] (tensorflow) StdoutLine: {'line': b'writing dependency_links to tensorflow.egg-info/dependency_links.txt\n'}
+[2.253834] (tensorflow) StdoutLine: {'line': b'writing entry points to tensorflow.egg-info/entry_points.txt\n'}
+[2.254179] (tensorflow) StdoutLine: {'line': b'writing requirements to tensorflow.egg-info/requires.txt\n'}
+[2.254400] (tensorflow) StdoutLine: {'line': b'writing top-level names to tensorflow.egg-info/top_level.txt\n'}
+[2.254827] (tensorflow) StdoutLine: {'line': b"writing manifest file 'tensorflow.egg-info/SOURCES.txt'\n"}
+[2.256286] (tensorflow) StderrLine: {'line': b"package init file 'prefix_override/__init__.py' not found (or not a regular file)\n"}
+[2.289083] (-) TimerEvent: {}
+[2.309646] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.343726] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.344575] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.345567] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.350238] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.381101] (tensorflow) StdoutLine: {'line': b"reading manifest file 'tensorflow.egg-info/SOURCES.txt'\n"}
+[2.382143] (tensorflow) StdoutLine: {'line': b"writing manifest file 'tensorflow.egg-info/SOURCES.txt'\n"}
+[2.382601] (tensorflow) StdoutLine: {'line': b'running build_ext\n'}
+[2.383040] (tensorflow) StdoutLine: {'line': b'Creating /home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages/tensorflow.egg-link (link to .)\n'}
+[2.384130] (tensorflow) StdoutLine: {'line': b'Installing import_pb_to_tensorboard script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin\n'}
+[2.384436] (tensorflow) StdoutLine: {'line': b'Installing saved_model_cli script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin\n'}
+[2.384702] (tensorflow) StdoutLine: {'line': b'Installing tensorboard script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin\n'}
+[2.384948] (tensorflow) StdoutLine: {'line': b'Installing tf_upgrade_v2 script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin\n'}
+[2.385194] (tensorflow) StdoutLine: {'line': b'Installing tflite_convert script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin\n'}
+[2.385432] (tensorflow) StdoutLine: {'line': b'Installing toco script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin\n'}
+[2.385673] (tensorflow) StdoutLine: {'line': b'Installing toco_from_protos script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin\n'}
+[2.385992] (tensorflow) StdoutLine: {'line': b'\n'}
+[2.386125] (tensorflow) StdoutLine: {'line': b'Installed /home/vboxuser/Shared/ros2_ws/build/tensorflow\n'}
+[2.387642] (interface_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[2.388347] (interface_tutorial) StdoutLine: {'line': b'creating interface_tutorial.egg-info\n'}
+[2.388774] (interface_tutorial) StdoutLine: {'line': b'writing interface_tutorial.egg-info/PKG-INFO\n'}
+[2.388984] (interface_tutorial) StdoutLine: {'line': b'writing dependency_links to interface_tutorial.egg-info/dependency_links.txt\n'}
+[2.389067] (-) TimerEvent: {}
+[2.389324] (interface_tutorial) StdoutLine: {'line': b'writing top-level names to interface_tutorial.egg-info/top_level.txt\n'}
+[2.389460] (interface_tutorial) StdoutLine: {'line': b"writing manifest file 'interface_tutorial.egg-info/SOURCES.txt'\n"}
+[2.394666] (interface_tutorial) StdoutLine: {'line': b"reading manifest file 'interface_tutorial.egg-info/SOURCES.txt'\n"}
+[2.395336] (interface_tutorial) StdoutLine: {'line': b"writing manifest file 'interface_tutorial.egg-info/SOURCES.txt'\n"}
+[2.464759] (interface_tutorial) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_interface_tutorial_egg\n'}
+[2.480444] (interface_tutorial) StdoutLine: {'line': b'[  6%] Built target interface_tutorial__cpp\n'}
+[2.491561] (-) TimerEvent: {}
+[2.494121] (interface_tutorial) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.507330] (interface_tutorial) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.514804] (interface_tutorial) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.578876] (tensorflow) CommandEnded: {'returncode': 0}
+[2.579225] (tensorflow) JobEnded: {'identifier': 'tensorflow', 'rc': 0}
+[2.626685] (-) TimerEvent: {}
+[2.739365] (interface_tutorial) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/interface_tutorial__rosidl_generator_c.dir/rosidl_generator_c/interface_tutorial/msg/detail/num__functions.c.o\x1b[0m\n'}
+[2.739546] (-) TimerEvent: {}
+[2.739680] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.739789] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.739869] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.739939] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.740005] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.748006] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Generating done\n'}
+[2.749158] (xla_aot_runtime_src) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src\n'}
+[2.762093] (xla_aot_runtime_src) CommandEnded: {'returncode': 0}
+[2.762634] (xla_aot_runtime_src) JobProgress: {'identifier': 'xla_aot_runtime_src', 'progress': 'build'}
+[2.762675] (xla_aot_runtime_src) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/Shared/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TZ50M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial')]), 'shell': False}
+[2.817045] (ros_object_detection_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.818222] (ros_object_detection_msgs) StdoutLine: {'line': b'creating ros_object_detection_msgs.egg-info\n'}
+[2.818879] (ros_object_detection_msgs) StdoutLine: {'line': b'writing ros_object_detection_msgs.egg-info/PKG-INFO\n'}
+[2.819285] (ros_object_detection_msgs) StdoutLine: {'line': b'writing dependency_links to ros_object_detection_msgs.egg-info/dependency_links.txt\n'}
+[2.819642] (ros_object_detection_msgs) StdoutLine: {'line': b'writing top-level names to ros_object_detection_msgs.egg-info/top_level.txt\n'}
+[2.820095] (ros_object_detection_msgs) StdoutLine: {'line': b"writing manifest file 'ros_object_detection_msgs.egg-info/SOURCES.txt'\n"}
+[2.828746] (ros_object_detection_msgs) StdoutLine: {'line': b"reading manifest file 'ros_object_detection_msgs.egg-info/SOURCES.txt'\n"}
+[2.831023] (ros_object_detection_msgs) StdoutLine: {'line': b"writing manifest file 'ros_object_detection_msgs.egg-info/SOURCES.txt'\n"}
+[2.841725] (-) TimerEvent: {}
+[2.878795] (interface_tutorial) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterface_tutorial__rosidl_generator_c.so\x1b[0m\n'}
+[2.952193] (ros_object_detection_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_ros_object_detection_msgs_egg\n'}
+[2.952391] (-) TimerEvent: {}
+[2.960986] (ros_object_detection_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_object_detection_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_object_detection_msgs/msg/detail/bounding_box__functions.c.o\x1b[0m\n'}
+[2.961296] (ros_object_detection_msgs) StdoutLine: {'line': b'[  7%] Built target ros_object_detection_msgs__cpp\n'}
+[2.971087] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_object_detection_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_object_detection_msgs/msg/detail/bounding_boxes__functions.c.o\x1b[0m\n'}
+[2.987967] (interface_tutorial) StdoutLine: {'line': b'[ 22%] Built target interface_tutorial__rosidl_generator_c\n'}
+[2.988616] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.004738] (xla_aot_runtime_src) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/tensorflow/compiler/tf2xla/xla_compiled_cpu_function.cc.o\x1b[0m\n'}
+[3.019401] (xla_aot_runtime_src) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/tsl/framework/contraction/eigen_contraction_kernel.cc.o\x1b[0m\n'}
+[3.021721] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.035429] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/cpu_function_runtime.cc.o\x1b[0m\n'}
+[3.036781] (interface_tutorial) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.042772] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/tsl/platform/default/env_time.cc.o\x1b[0m\n'}
+[3.053227] (-) TimerEvent: {}
+[3.076828] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.130871] (interface_tutorial) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interface_tutorial__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_tutorial/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[3.137024] (interface_tutorial) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interface_tutorial__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_tutorial/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[3.145789] (interface_tutorial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interface_tutorial__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_tutorial/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.163568] (-) TimerEvent: {}
+[3.179575] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libros_object_detection_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.277411] (-) TimerEvent: {}
+[3.325115] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/executable_run_options.cc.o\x1b[0m\n'}
+[3.388093] (-) TimerEvent: {}
+[3.519555] (-) TimerEvent: {}
+[3.632722] (-) TimerEvent: {}
+[3.640944] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 20%] Built target ros_object_detection_msgs__rosidl_generator_c\n'}
+[3.708025] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.739079] (-) TimerEvent: {}
+[3.840751] (-) TimerEvent: {}
+[3.881023] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_object_detection_msgs/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[3.953055] (-) TimerEvent: {}
+[4.005746] (interface_tutorial) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_tutorial__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.014703] (interface_tutorial) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interface_tutorial__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_tutorial/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[4.072105] (-) TimerEvent: {}
+[4.181264] (-) TimerEvent: {}
+[4.217548] (interface_tutorial) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_tutorial__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.281909] (-) TimerEvent: {}
+[4.284233] (interface_tutorial) StdoutLine: {'line': b'[ 45%] Built target interface_tutorial__rosidl_typesupport_cpp\n'}
+[4.304823] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_object_detection_msgs/msg/detail/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.321722] (interface_tutorial) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_tutorial__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.323558] (interface_tutorial) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.371300] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_object_detection_msgs/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.403743] (-) TimerEvent: {}
+[4.460135] (interface_tutorial) StdoutLine: {'line': b'[ 51%] Built target interface_tutorial__rosidl_typesupport_introspection_cpp\n'}
+[4.506761] (-) TimerEvent: {}
+[4.556906] (interface_tutorial) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.608574] (-) TimerEvent: {}
+[4.714681] (-) TimerEvent: {}
+[4.763922] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_object_detection_msgs/msg/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[4.844568] (-) TimerEvent: {}
+[4.852554] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_object_detection_msgs/msg/detail/bounding_box__type_support_c.cpp.o\x1b[0m\n'}
+[4.900860] (interface_tutorial) StdoutLine: {'line': b'[ 54%] Built target interface_tutorial__rosidl_typesupport_fastrtps_cpp\n'}
+[4.972098] (-) TimerEvent: {}
+[5.055379] (interface_tutorial) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_tutorial__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.084200] (-) TimerEvent: {}
+[5.198586] (-) TimerEvent: {}
+[5.283652] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_object_detection_msgs/msg/detail/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[5.299698] (-) TimerEvent: {}
+[5.303376] (interface_tutorial) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/interface_tutorial__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_tutorial/msg/num__type_support.cpp.o\x1b[0m\n'}
+[5.353000] (interface_tutorial) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/interface_tutorial__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_tutorial/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[5.378673] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libros_object_detection_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.405544] (-) TimerEvent: {}
+[5.433910] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_object_detection_msgs/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[5.444044] (interface_tutorial) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libinterface_tutorial__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.508004] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 43%] Built target ros_object_detection_msgs__rosidl_typesupport_cpp\n'}
+[5.508203] (-) TimerEvent: {}
+[5.508475] (interface_tutorial) StdoutLine: {'line': b'[ 67%] Built target interface_tutorial__rosidl_typesupport_fastrtps_c\n'}
+[5.524044] (interface_tutorial) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libinterface_tutorial__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.569996] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.632745] (-) TimerEvent: {}
+[5.644428] (interface_tutorial) StdoutLine: {'line': b'[ 70%] Built target interface_tutorial__rosidl_typesupport_c\n'}
+[5.699972] (interface_tutorial) StdoutLine: {'line': b'[ 70%] Built target interface_tutorial__rosidl_typesupport_introspection_c\n'}
+[5.744629] (-) TimerEvent: {}
+[5.820431] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_object_detection_msgs/msg/detail/bounding_boxes__type_support_c.cpp.o\x1b[0m\n'}
+[5.847784] (interface_tutorial) StdoutLine: {'line': b'[ 70%] Built target interface_tutorial\n'}
+[5.847976] (-) TimerEvent: {}
+[5.952736] (-) TimerEvent: {}
+[6.056001] (-) TimerEvent: {}
+[6.057482] (interface_tutorial) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.085146] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_conv3d.cc.o\x1b[0m\n'}
+[6.085324] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_conv2d.cc.o\x1b[0m\n'}
+[6.170762] (-) TimerEvent: {}
+[6.284784] (-) TimerEvent: {}
+[6.335374] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libros_object_detection_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.410890] (-) TimerEvent: {}
+[6.451471] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_object_detection_msgs/msg/detail/bounding_box__type_support.c.o\x1b[0m\n'}
+[6.524856] (-) TimerEvent: {}
+[6.560673] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libros_object_detection_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.584704] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libros_object_detection_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.595649] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_object_detection_msgs/msg/detail/bounding_boxes__type_support.c.o\x1b[0m\n'}
+[6.625416] (-) TimerEvent: {}
+[6.651676] (interface_tutorial) StdoutLine: {'line': b'[ 74%] Built target interface_tutorial__py\n'}
+[6.719530] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 61%] Built target ros_object_detection_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.740372] (-) TimerEvent: {}
+[6.748126] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libros_object_detection_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.782949] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.805403] (interface_tutorial) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interface_tutorial__rosidl_generator_py.dir/rosidl_generator_py/interface_tutorial/msg/_num_s.c.o\x1b[0m\n'}
+[6.851771] (-) TimerEvent: {}
+[6.887914] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 66%] Built target ros_object_detection_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.894333] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_custom_call_status.cc.o\x1b[0m\n'}
+[6.924170] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 66%] Built target ros_object_detection_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.939255] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 66%] Built target ros_object_detection_msgs__rosidl_typesupport_introspection_c\n'}
+[6.952223] (-) TimerEvent: {}
+[7.060250] (-) TimerEvent: {}
+[7.111023] (interface_tutorial) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_tutorial/libinterface_tutorial__rosidl_generator_py.so\x1b[0m\n'}
+[7.204832] (-) TimerEvent: {}
+[7.267353] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_object_detection_msgs/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[7.277542] (interface_tutorial) StdoutLine: {'line': b'[ 80%] Built target interface_tutorial__rosidl_generator_py\n'}
+[7.315735] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_object_detection_msgs/msg/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[7.315972] (-) TimerEvent: {}
+[7.337514] (interface_tutorial) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interface_tutorial__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_tutorial/_interface_tutorial_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.349959] (interface_tutorial) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interface_tutorial__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_tutorial/_interface_tutorial_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.354775] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_fft.cc.o\x1b[0m\n'}
+[7.355299] (interface_tutorial) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interface_tutorial__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_tutorial/_interface_tutorial_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.433146] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_fork_join.cc.o\x1b[0m\n'}
+[7.433340] (-) TimerEvent: {}
+[7.451194] (interface_tutorial) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_tutorial/interface_tutorial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.510141] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libros_object_detection_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.538767] (-) TimerEvent: {}
+[7.579609] (interface_tutorial) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_tutorial/interface_tutorial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.634884] (interface_tutorial) StdoutLine: {'line': b'[ 96%] Built target interface_tutorial__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.638865] (-) TimerEvent: {}
+[7.640991] (interface_tutorial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface_tutorial/interface_tutorial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.641607] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 74%] Built target ros_object_detection_msgs__rosidl_typesupport_c\n'}
+[7.679712] (interface_tutorial) StdoutLine: {'line': b'[100%] Built target interface_tutorial__rosidl_typesupport_introspection_c__pyext\n'}
+[7.745715] (-) TimerEvent: {}
+[7.828416] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 74%] Built target ros_object_detection_msgs\n'}
+[7.828667] (interface_tutorial) StdoutLine: {'line': b'[100%] Built target interface_tutorial__rosidl_typesupport_c__pyext\n'}
+[7.848626] (-) TimerEvent: {}
+[7.878724] (interface_tutorial) CommandEnded: {'returncode': 0}
+[7.949322] (-) TimerEvent: {}
+[8.061669] (-) TimerEvent: {}
+[8.087347] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.205701] (-) TimerEvent: {}
+[8.351411] (-) TimerEvent: {}
+[8.454721] (-) TimerEvent: {}
+[8.559095] (-) TimerEvent: {}
+[8.687173] (-) TimerEvent: {}
+[8.799144] (-) TimerEvent: {}
+[8.940492] (-) TimerEvent: {}
+[9.074164] (-) TimerEvent: {}
+[9.203003] (-) TimerEvent: {}
+[9.315607] (-) TimerEvent: {}
+[9.430951] (-) TimerEvent: {}
+[9.506073] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 76%] Built target ros_object_detection_msgs__py\n'}
+[9.538718] (-) TimerEvent: {}
+[9.578068] (interface_tutorial) JobProgress: {'identifier': 'interface_tutorial', 'progress': 'install'}
+[9.669215] (-) TimerEvent: {}
+[9.701430] (interface_tutorial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/Shared/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TZ50M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble')]), 'shell': False}
+[9.717556] (interface_tutorial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.718388] (interface_tutorial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.718988] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/ament_index/resource_index/rosidl_interfaces/interface_tutorial\n'}
+[9.719087] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/ros_object_detection_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_object_detection_msgs/msg/_bounding_boxes_s.c.o\x1b[0m\n'}
+[9.719176] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/ros_object_detection_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros_object_detection_msgs/msg/_bounding_box_s.c.o\x1b[0m\n'}
+[9.730026] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__functions.h\n'}
+[9.762038] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__struct.h\n'}
+[9.778815] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__type_support.h\n'}
+[9.779037] (-) TimerEvent: {}
+[9.798550] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/num.h\n'}
+[9.816561] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.818713] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_fp16.cc.o\x1b[0m\n'}
+[9.831050] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/library_path.sh\n'}
+[9.864597] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/library_path.dsv\n'}
+[9.892520] (-) TimerEvent: {}
+[9.893641] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[9.895927] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_key_value_sort.cc.o\x1b[0m\n'}
+[9.915707] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.948489] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[9.996110] (-) TimerEvent: {}
+[9.997627] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.004693] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_object_detection_msgs/libros_object_detection_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[10.013058] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__builder.hpp\n'}
+[10.062181] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__struct.hpp\n'}
+[10.101333] (-) TimerEvent: {}
+[10.101991] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__traits.hpp\n'}
+[10.122624] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/num.hpp\n'}
+[10.159306] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.200741] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.215495] (-) TimerEvent: {}
+[10.223159] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 84%] Built target ros_object_detection_msgs__rosidl_generator_py\n'}
+[10.225341] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.273313] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/pythonpath.sh\n'}
+[10.302701] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/pythonpath.dsv\n'}
+[10.321676] (-) TimerEvent: {}
+[10.335603] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_object_detection_msgs/_ros_object_detection_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.338731] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.379722] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.387253] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_object_detection_msgs/_ros_object_detection_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.387504] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros_object_detection_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_object_detection_msgs/_ros_object_detection_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.389189] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.406579] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.442983] (-) TimerEvent: {}
+[10.456079] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/__init__.py\n'}
+[10.493701] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/_interface_tutorial_s.ep.rosidl_typesupport_c.c\n'}
+[10.550056] (-) TimerEvent: {}
+[10.567534] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/_interface_tutorial_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.580903] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/_interface_tutorial_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.595305] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.596714] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_object_detection_msgs/ros_object_detection_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.617394] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.633987] (ros_object_detection_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_object_detection_msgs/ros_object_detection_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.643751] (ros_object_detection_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_object_detection_msgs/ros_object_detection_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.644475] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.652403] (-) TimerEvent: {}
+[10.684576] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/libinterface_tutorial__rosidl_generator_py.so\n'}
+[10.710160] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg/__init__.py\n'}
+[10.737784] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg/_num.py\n'}
+[10.757232] (-) TimerEvent: {}
+[10.758891] (ros_object_detection_msgs) StdoutLine: {'line': b'[100%] Built target ros_object_detection_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.759111] (ros_object_detection_msgs) StdoutLine: {'line': b'[100%] Built target ros_object_detection_msgs__rosidl_typesupport_c__pyext\n'}
+[10.761111] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg/_num_s.c\n'}
+[10.765845] (ros_object_detection_msgs) StdoutLine: {'line': b'[100%] Built target ros_object_detection_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[10.770915] (interface_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.771482] (interface_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.771943] (interface_tutorial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.772334] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/msg/Num.idl\n'}
+[10.796278] (ros_object_detection_msgs) CommandEnded: {'returncode': 0}
+[10.797270] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/msg/Num.msg\n'}
+[10.797463] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_c128.cc.o\x1b[0m\n'}
+[10.813787] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/ament_index/resource_index/package_run_dependencies/interface_tutorial\n'}
+[10.823942] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/ament_index/resource_index/parent_prefix_path/interface_tutorial\n'}
+[10.836506] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/ament_prefix_path.sh\n'}
+[10.847593] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/ament_prefix_path.dsv\n'}
+[10.858092] (-) TimerEvent: {}
+[10.858546] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/path.sh\n'}
+[10.868363] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/path.dsv\n'}
+[10.879348] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/local_setup.bash\n'}
+[10.891657] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/local_setup.sh\n'}
+[10.906824] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/local_setup.zsh\n'}
+[10.919117] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/local_setup.dsv\n'}
+[10.931733] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/package.dsv\n'}
+[10.946005] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/ament_index/resource_index/packages/interface_tutorial\n'}
+[10.958005] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/rosidl_cmake-extras.cmake\n'}
+[10.958177] (-) TimerEvent: {}
+[10.969820] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.981900] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.995767] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.009675] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.021552] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.033483] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.045926] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorialConfig.cmake\n'}
+[11.058320] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorialConfig-version.cmake\n'}
+[11.058485] (-) TimerEvent: {}
+[11.071992] (interface_tutorial) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/package.xml\n'}
+[11.084715] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_generator_c.so\n'}
+[11.085166] (interface_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_generator_c.so" to ""\n'}
+[11.085335] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_fastrtps_c.so\n'}
+[11.085724] (interface_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.085839] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_introspection_c.so\n'}
+[11.086162] (interface_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.086274] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_c.so\n'}
+[11.086695] (interface_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_c.so" to ""\n'}
+[11.086808] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.087199] (interface_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.087446] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_introspection_cpp.so\n'}
+[11.087929] (interface_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.088153] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_cpp.so\n'}
+[11.088627] (interface_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_cpp.so" to ""\n'}
+[11.138924] (interface_tutorial) StdoutLine: {'line': b"Listing '/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial'...\n"}
+[11.139359] (interface_tutorial) StdoutLine: {'line': b"Compiling '/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/__init__.py'...\n"}
+[11.139527] (interface_tutorial) StdoutLine: {'line': b"Listing '/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg'...\n"}
+[11.139656] (interface_tutorial) StdoutLine: {'line': b"Compiling '/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg/__init__.py'...\n"}
+[11.139758] (interface_tutorial) StdoutLine: {'line': b"Compiling '/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg/_num.py'...\n"}
+[11.148650] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_generator_py.so\n'}
+[11.149447] (interface_tutorial) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_generator_py.so" to ""\n'}
+[11.149778] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_cExport.cmake\n'}
+[11.150168] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.150562] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.150922] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.151281] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.151620] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.151977] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_cExport.cmake\n'}
+[11.152311] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.152633] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_cppExport.cmake\n'}
+[11.152957] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.153269] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.153590] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.153897] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.154218] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_cppExport.cmake\n'}
+[11.154525] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.154838] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_pyExport.cmake\n'}
+[11.155143] (interface_tutorial) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.166200] (interface_tutorial) CommandEnded: {'returncode': 0}
+[11.166598] (-) TimerEvent: {}
+[11.285070] (-) TimerEvent: {}
+[11.392395] (-) TimerEvent: {}
+[11.519822] (-) TimerEvent: {}
+[11.644194] (-) TimerEvent: {}
+[11.712270] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_c64.cc.o\x1b[0m\n'}
+[11.759785] (-) TimerEvent: {}
+[11.872607] (-) TimerEvent: {}
+[11.980693] (-) TimerEvent: {}
+[12.094807] (-) TimerEvent: {}
+[12.223291] (ros_object_detection_msgs) JobProgress: {'identifier': 'ros_object_detection_msgs', 'progress': 'install'}
+[12.223393] (-) TimerEvent: {}
+[12.223649] (ros_object_detection_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser/Shared/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2124'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TZ50M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble')]), 'shell': False}
+[12.277715] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.277886] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.277980] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ament_index/resource_index/rosidl_interfaces/ros_object_detection_msgs\n'}
+[12.286831] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/bounding_box.h\n'}
+[12.344511] (-) TimerEvent: {}
+[12.355582] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/bounding_boxes.h\n'}
+[12.367782] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__functions.h\n'}
+[12.382149] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__struct.h\n'}
+[12.413462] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__type_support.h\n'}
+[12.425839] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__functions.h\n'}
+[12.438635] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__struct.h\n'}
+[12.447705] (-) TimerEvent: {}
+[12.455057] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__type_support.h\n'}
+[12.468526] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.485275] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/environment/library_path.sh\n'}
+[12.501697] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/environment/library_path.dsv\n'}
+[12.514896] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h\n'}
+[12.526464] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h\n'}
+[12.529508] (interface_tutorial) JobEnded: {'identifier': 'interface_tutorial', 'rc': 0}
+[12.537037] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.548564] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h\n'}
+[12.548753] (-) TimerEvent: {}
+[12.560318] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h\n'}
+[12.575696] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.588755] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/bounding_box.hpp\n'}
+[12.599777] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/bounding_boxes.hpp\n'}
+[12.610896] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__builder.hpp\n'}
+[12.621313] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__struct.hpp\n'}
+[12.631445] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__traits.hpp\n'}
+[12.641674] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__builder.hpp\n'}
+[12.650296] (-) TimerEvent: {}
+[12.653157] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__struct.hpp\n'}
+[12.665605] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__traits.hpp\n'}
+[12.679242] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.691468] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.705405] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.717565] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.729972] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/include/ros_object_detection_msgs/ros_object_detection_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.746288] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/environment/pythonpath.sh\n'}
+[12.750599] (-) TimerEvent: {}
+[12.763990] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/environment/pythonpath.dsv\n'}
+[12.778784] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.790040] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.803902] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.815702] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.827777] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/__init__.py\n'}
+[12.838998] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/_ros_object_detection_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[12.849234] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/_ros_object_detection_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.857449] (-) TimerEvent: {}
+[12.860552] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/_ros_object_detection_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.871628] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/libros_object_detection_msgs__rosidl_generator_py.so\n'}
+[12.881768] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/msg/__init__.py\n'}
+[12.894522] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/msg/_bounding_box.py\n'}
+[12.906638] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/msg/_bounding_box_s.c\n'}
+[12.918927] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/msg/_bounding_boxes.py\n'}
+[12.930656] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/msg/_bounding_boxes_s.c\n'}
+[12.940778] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/ros_object_detection_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.950961] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/ros_object_detection_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.959319] (-) TimerEvent: {}
+[12.962184] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/ros_object_detection_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.973193] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/ros_object_detection_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.973818] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/ros_object_detection_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.974358] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/ros_object_detection_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.974821] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/msg/BoundingBox.idl\n'}
+[12.985940] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/msg/BoundingBoxes.idl\n'}
+[12.997627] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/msg/BoundingBox.msg\n'}
+[13.011127] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/msg/BoundingBoxes.msg\n'}
+[13.022552] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ament_index/resource_index/package_run_dependencies/ros_object_detection_msgs\n'}
+[13.033691] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ament_index/resource_index/parent_prefix_path/ros_object_detection_msgs\n'}
+[13.044200] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/environment/ament_prefix_path.sh\n'}
+[13.056824] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/environment/ament_prefix_path.dsv\n'}
+[13.059507] (-) TimerEvent: {}
+[13.068513] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/environment/path.sh\n'}
+[13.080572] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/environment/path.dsv\n'}
+[13.093277] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/local_setup.bash\n'}
+[13.105332] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/local_setup.sh\n'}
+[13.116732] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/local_setup.zsh\n'}
+[13.127829] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/local_setup.dsv\n'}
+[13.138414] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/package.dsv\n'}
+[13.149126] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ament_index/resource_index/packages/ros_object_detection_msgs\n'}
+[13.160254] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[13.160436] (-) TimerEvent: {}
+[13.170841] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.182342] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.194147] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.205288] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.221198] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.232034] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.242827] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgsConfig.cmake\n'}
+[13.253487] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgsConfig-version.cmake\n'}
+[13.261708] (-) TimerEvent: {}
+[13.264804] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Symlinking: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/package.xml\n'}
+[13.275103] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_generator_c.so\n'}
+[13.275861] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_generator_c.so" to ""\n'}
+[13.276200] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[13.276808] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.277090] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_introspection_c.so\n'}
+[13.277623] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.277882] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_c.so\n'}
+[13.278377] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_c.so" to ""\n'}
+[13.278646] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.279221] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.279470] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[13.280043] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.280307] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_cpp.so\n'}
+[13.280802] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[13.325834] (ros_object_detection_msgs) StdoutLine: {'line': b"Listing '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs'...\n"}
+[13.326145] (ros_object_detection_msgs) StdoutLine: {'line': b"Compiling '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/__init__.py'...\n"}
+[13.326271] (ros_object_detection_msgs) StdoutLine: {'line': b"Listing '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/msg'...\n"}
+[13.326369] (ros_object_detection_msgs) StdoutLine: {'line': b"Compiling '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/msg/__init__.py'...\n"}
+[13.326445] (ros_object_detection_msgs) StdoutLine: {'line': b"Compiling '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/msg/_bounding_box.py'...\n"}
+[13.326517] (ros_object_detection_msgs) StdoutLine: {'line': b"Compiling '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages/ros_object_detection_msgs/msg/_bounding_boxes.py'...\n"}
+[13.334555] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_generator_py.so\n'}
+[13.335292] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib/libros_object_detection_msgs__rosidl_generator_py.so" to ""\n'}
+[13.335624] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/export_ros_object_detection_msgs__rosidl_generator_cExport.cmake\n'}
+[13.336008] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/export_ros_object_detection_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.336384] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/export_ros_object_detection_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.336735] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/export_ros_object_detection_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.337075] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.337402] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.337738] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgs__rosidl_typesupport_cExport.cmake\n'}
+[13.338049] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.338378] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/export_ros_object_detection_msgs__rosidl_generator_cppExport.cmake\n'}
+[13.338717] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/export_ros_object_detection_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.339028] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/export_ros_object_detection_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.339368] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.339687] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.340013] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[13.340332] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/ros_object_detection_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.340662] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/export_ros_object_detection_msgs__rosidl_generator_pyExport.cmake\n'}
+[13.340972] (ros_object_detection_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/share/ros_object_detection_msgs/cmake/export_ros_object_detection_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.344375] (ros_object_detection_msgs) CommandEnded: {'returncode': 0}
+[13.423613] (-) TimerEvent: {}
+[13.540029] (-) TimerEvent: {}
+[13.642221] (-) TimerEvent: {}
+[13.764139] (-) TimerEvent: {}
+[13.869485] (-) TimerEvent: {}
+[13.988081] (-) TimerEvent: {}
+[14.097895] (-) TimerEvent: {}
+[14.207483] (-) TimerEvent: {}
+[14.314704] (-) TimerEvent: {}
+[14.424280] (-) TimerEvent: {}
+[14.525636] (-) TimerEvent: {}
+[14.630719] (-) TimerEvent: {}
+[14.735449] (-) TimerEvent: {}
+[14.847616] (-) TimerEvent: {}
+[14.952805] (-) TimerEvent: {}
+[15.003005] (ros_object_detection_msgs) JobEnded: {'identifier': 'ros_object_detection_msgs', 'rc': 0}
+[15.003966] (ros_object_detection) JobStarted: {'identifier': 'ros_object_detection'}
+[15.064514] (-) TimerEvent: {}
+[15.172887] (-) TimerEvent: {}
+[15.277847] (-) TimerEvent: {}
+[15.383821] (-) TimerEvent: {}
+[15.491952] (-) TimerEvent: {}
+[15.615071] (-) TimerEvent: {}
+[15.721481] (-) TimerEvent: {}
+[15.833773] (-) TimerEvent: {}
+[15.941053] (-) TimerEvent: {}
+[16.048698] (-) TimerEvent: {}
+[16.149367] (-) TimerEvent: {}
+[16.255468] (-) TimerEvent: {}
+[16.355931] (-) TimerEvent: {}
+[16.456480] (-) TimerEvent: {}
+[16.556754] (-) TimerEvent: {}
+[16.580974] (ros_object_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection/build', '--no-deps', 'symlink_data'], 'cwd': '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/lib:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser/Shared/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2124', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/Shared/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vboxuser/Shared/ros2_ws/install/tensorflow/bin:/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/qubuntu5:@/tmp/.ICE-unix/1588,unix/qubuntu5:/tmp/.ICE-unix/1588', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02eca8c1_a6fa_417e_abf2_3d5edde67974', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.TZ50M2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection/prefix_override:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:/home/vboxuser/Shared/ros2_ws/install/my-test-package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/Shared/ros2_ws/install/ros_object_detection_msgs:/home/vboxuser/Shared/ros2_ws/install/interface_tutorial'}, 'shell': False}
+[16.657587] (-) TimerEvent: {}
+[16.775080] (-) TimerEvent: {}
+[16.897377] (-) TimerEvent: {}
+[16.999368] (-) TimerEvent: {}
+[17.106939] (-) TimerEvent: {}
+[17.210800] (-) TimerEvent: {}
+[17.289523] (ros_object_detection) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[17.289843] (ros_object_detection) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.319274] (-) TimerEvent: {}
+[17.362955] (ros_object_detection) StdoutLine: {'line': b'running develop\n'}
+[17.363425] (ros_object_detection) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[17.363595] (ros_object_detection) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.431364] (-) TimerEvent: {}
+[17.539475] (-) TimerEvent: {}
+[17.652302] (ros_object_detection) StdoutLine: {'line': b'running egg_info\n'}
+[17.652481] (-) TimerEvent: {}
+[17.652851] (ros_object_detection) StdoutLine: {'line': b'creating ros_object_detection.egg-info\n'}
+[17.653493] (ros_object_detection) StdoutLine: {'line': b'writing ros_object_detection.egg-info/PKG-INFO\n'}
+[17.653956] (ros_object_detection) StdoutLine: {'line': b'writing dependency_links to ros_object_detection.egg-info/dependency_links.txt\n'}
+[17.654341] (ros_object_detection) StdoutLine: {'line': b'writing entry points to ros_object_detection.egg-info/entry_points.txt\n'}
+[17.654642] (ros_object_detection) StdoutLine: {'line': b'writing requirements to ros_object_detection.egg-info/requires.txt\n'}
+[17.654879] (ros_object_detection) StdoutLine: {'line': b'writing top-level names to ros_object_detection.egg-info/top_level.txt\n'}
+[17.655333] (ros_object_detection) StdoutLine: {'line': b"writing manifest file 'ros_object_detection.egg-info/SOURCES.txt'\n"}
+[17.657969] (ros_object_detection) StdoutLine: {'line': b"reading manifest file 'ros_object_detection.egg-info/SOURCES.txt'\n"}
+[17.659063] (ros_object_detection) StdoutLine: {'line': b"writing manifest file 'ros_object_detection.egg-info/SOURCES.txt'\n"}
+[17.732777] (ros_object_detection) StdoutLine: {'line': b'running build_ext\n'}
+[17.733305] (ros_object_detection) StdoutLine: {'line': b'Creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages/ros-object-detection.egg-link (link to .)\n'}
+[17.734467] (ros_object_detection) StdoutLine: {'line': b'Installing detect script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection\n'}
+[17.734830] (ros_object_detection) StdoutLine: {'line': b'Installing image_to_pcl script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection\n'}
+[17.735106] (ros_object_detection) StdoutLine: {'line': b'Installing publish_video script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection\n'}
+[17.735384] (ros_object_detection) StdoutLine: {'line': b'Installing show_on_pcl script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection\n'}
+[17.735636] (ros_object_detection) StdoutLine: {'line': b'Installing show_tfs script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection\n'}
+[17.735972] (ros_object_detection) StdoutLine: {'line': b'\n'}
+[17.736104] (ros_object_detection) StdoutLine: {'line': b'Installed /home/vboxuser/Shared/ros2_ws/build/ros_object_detection\n'}
+[17.736306] (ros_object_detection) StdoutLine: {'line': b'running symlink_data\n'}
+[17.736550] (ros_object_detection) StdoutLine: {'line': b'creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index\n'}
+[17.736744] (ros_object_detection) StdoutLine: {'line': b'creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index/resource_index\n'}
+[17.736923] (ros_object_detection) StdoutLine: {'line': b'creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index/resource_index/packages\n'}
+[17.737171] (ros_object_detection) StdoutLine: {'line': b'symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/resource/ros_object_detection -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index/resource_index/packages\n'}
+[17.737419] (ros_object_detection) StdoutLine: {'line': b'symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/package.xml -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection\n'}
+[17.737665] (ros_object_detection) StdoutLine: {'line': b'symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/detect_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection\n'}
+[17.737890] (ros_object_detection) StdoutLine: {'line': b'symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/show_tfs_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection\n'}
+[17.738114] (ros_object_detection) StdoutLine: {'line': b'symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/show_on_pcl_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection\n'}
+[17.738345] (ros_object_detection) StdoutLine: {'line': b'symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/image_to_pcl_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection\n'}
+[17.738561] (ros_object_detection) StdoutLine: {'line': b'symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/publish_video_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection\n'}
+[17.753824] (-) TimerEvent: {}
+[17.811581] (ros_object_detection) CommandEnded: {'returncode': 0}
+[17.811997] (ros_object_detection) JobEnded: {'identifier': 'ros_object_detection', 'rc': 0}
+[17.864614] (-) TimerEvent: {}
+[17.971510] (-) TimerEvent: {}
+[18.087262] (-) TimerEvent: {}
+[18.151579] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_f16.cc.o\x1b[0m\n'}
+[18.233443] (-) TimerEvent: {}
+[18.345511] (-) TimerEvent: {}
+[18.447053] (-) TimerEvent: {}
+[18.551233] (-) TimerEvent: {}
+[18.653400] (-) TimerEvent: {}
+[18.756144] (-) TimerEvent: {}
+[18.871432] (-) TimerEvent: {}
+[18.935257] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_f32.cc.o\x1b[0m\n'}
+[18.981954] (-) TimerEvent: {}
+[19.089284] (-) TimerEvent: {}
+[19.203267] (-) TimerEvent: {}
+[19.378451] (-) TimerEvent: {}
+[19.490432] (-) TimerEvent: {}
+[19.618568] (-) TimerEvent: {}
+[19.730552] (-) TimerEvent: {}
+[19.842430] (-) TimerEvent: {}
+[19.976244] (-) TimerEvent: {}
+[20.104323] (-) TimerEvent: {}
+[20.230921] (-) TimerEvent: {}
+[20.331405] (-) TimerEvent: {}
+[20.443448] (-) TimerEvent: {}
+[20.556872] (-) TimerEvent: {}
+[20.659736] (-) TimerEvent: {}
+[20.819757] (-) TimerEvent: {}
+[20.947768] (-) TimerEvent: {}
+[21.059464] (-) TimerEvent: {}
+[21.189957] (-) TimerEvent: {}
+[21.293530] (-) TimerEvent: {}
+[21.296810] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_f64.cc.o\x1b[0m\n'}
+[21.401383] (-) TimerEvent: {}
+[21.515116] (-) TimerEvent: {}
+[21.627170] (-) TimerEvent: {}
+[21.746951] (-) TimerEvent: {}
+[21.859137] (-) TimerEvent: {}
+[21.971184] (-) TimerEvent: {}
+[22.079782] (-) TimerEvent: {}
+[22.191676] (-) TimerEvent: {}
+[22.320331] (-) TimerEvent: {}
+[22.431835] (-) TimerEvent: {}
+[22.572733] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_s32.cc.o\x1b[0m\n'}
+[22.572924] (-) TimerEvent: {}
+[22.698558] (-) TimerEvent: {}
+[22.814233] (-) TimerEvent: {}
+[22.961746] (-) TimerEvent: {}
+[23.085334] (-) TimerEvent: {}
+[23.199622] (-) TimerEvent: {}
+[23.312169] (-) TimerEvent: {}
+[23.455731] (-) TimerEvent: {}
+[23.568526] (-) TimerEvent: {}
+[23.688028] (-) TimerEvent: {}
+[23.802155] (-) TimerEvent: {}
+[23.917367] (-) TimerEvent: {}
+[24.021468] (-) TimerEvent: {}
+[24.140807] (-) TimerEvent: {}
+[24.277503] (-) TimerEvent: {}
+[24.384109] (-) TimerEvent: {}
+[24.484519] (-) TimerEvent: {}
+[24.599287] (-) TimerEvent: {}
+[24.711353] (-) TimerEvent: {}
+[24.825959] (-) TimerEvent: {}
+[24.939555] (-) TimerEvent: {}
+[25.043622] (-) TimerEvent: {}
+[25.172399] (-) TimerEvent: {}
+[25.286716] (-) TimerEvent: {}
+[25.392474] (-) TimerEvent: {}
+[25.495507] (-) TimerEvent: {}
+[25.608046] (-) TimerEvent: {}
+[25.719587] (-) TimerEvent: {}
+[25.832207] (-) TimerEvent: {}
+[25.942726] (-) TimerEvent: {}
+[26.058072] (-) TimerEvent: {}
+[26.159078] (-) TimerEvent: {}
+[26.285507] (-) TimerEvent: {}
+[26.388241] (-) TimerEvent: {}
+[26.500193] (-) TimerEvent: {}
+[26.614843] (-) TimerEvent: {}
+[26.727105] (-) TimerEvent: {}
+[26.809247] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_pow.cc.o\x1b[0m\n'}
+[26.831222] (-) TimerEvent: {}
+[26.845213] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_conv2d.cc.o\x1b[0m\n'}
+[26.945676] (-) TimerEvent: {}
+[27.057382] (-) TimerEvent: {}
+[27.187583] (-) TimerEvent: {}
+[27.289187] (-) TimerEvent: {}
+[27.415548] (-) TimerEvent: {}
+[27.522403] (-) TimerEvent: {}
+[27.629317] (-) TimerEvent: {}
+[27.731729] (-) TimerEvent: {}
+[27.843806] (-) TimerEvent: {}
+[27.957910] (-) TimerEvent: {}
+[28.064469] (-) TimerEvent: {}
+[28.164933] (-) TimerEvent: {}
+[28.286529] (-) TimerEvent: {}
+[28.386938] (-) TimerEvent: {}
+[28.498538] (-) TimerEvent: {}
+[28.611503] (-) TimerEvent: {}
+[28.724097] (-) TimerEvent: {}
+[28.835569] (-) TimerEvent: {}
+[28.935880] (-) TimerEvent: {}
+[29.038666] (-) TimerEvent: {}
+[29.139355] (-) TimerEvent: {}
+[29.242686] (-) TimerEvent: {}
+[29.346751] (-) TimerEvent: {}
+[29.451344] (-) TimerEvent: {}
+[29.552186] (-) TimerEvent: {}
+[29.652702] (-) TimerEvent: {}
+[29.753841] (-) TimerEvent: {}
+[29.854391] (-) TimerEvent: {}
+[29.962273] (-) TimerEvent: {}
+[30.071371] (-) TimerEvent: {}
+[30.164297] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_conv3d.cc.o\x1b[0m\n'}
+[30.171664] (-) TimerEvent: {}
+[30.273944] (-) TimerEvent: {}
+[30.364226] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_fft.cc.o\x1b[0m\n'}
+[30.375258] (-) TimerEvent: {}
+[30.395289] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_c128.cc.o\x1b[0m\n'}
+[30.476196] (-) TimerEvent: {}
+[30.576774] (-) TimerEvent: {}
+[30.677634] (-) TimerEvent: {}
+[30.778305] (-) TimerEvent: {}
+[30.883462] (-) TimerEvent: {}
+[30.984098] (-) TimerEvent: {}
+[31.085027] (-) TimerEvent: {}
+[31.197897] (-) TimerEvent: {}
+[31.311429] (-) TimerEvent: {}
+[31.441893] (-) TimerEvent: {}
+[31.549931] (-) TimerEvent: {}
+[31.658880] (-) TimerEvent: {}
+[31.708405] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_c64.cc.o\x1b[0m\n'}
+[31.803262] (-) TimerEvent: {}
+[31.915661] (-) TimerEvent: {}
+[32.016328] (-) TimerEvent: {}
+[32.117948] (-) TimerEvent: {}
+[32.221340] (-) TimerEvent: {}
+[32.323991] (-) TimerEvent: {}
+[32.424470] (-) TimerEvent: {}
+[32.525888] (-) TimerEvent: {}
+[32.628255] (-) TimerEvent: {}
+[32.730690] (-) TimerEvent: {}
+[32.741919] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_f16.cc.o\x1b[0m\n'}
+[32.830767] (-) TimerEvent: {}
+[32.932342] (-) TimerEvent: {}
+[33.039795] (-) TimerEvent: {}
+[33.142293] (-) TimerEvent: {}
+[33.251496] (-) TimerEvent: {}
+[33.271511] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_f32.cc.o\x1b[0m\n'}
+[33.361938] (-) TimerEvent: {}
+[33.468639] (-) TimerEvent: {}
+[33.598588] (-) TimerEvent: {}
+[33.710668] (-) TimerEvent: {}
+[33.822814] (-) TimerEvent: {}
+[33.951726] (-) TimerEvent: {}
+[34.079197] (-) TimerEvent: {}
+[34.145876] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_f64.cc.o\x1b[0m\n'}
+[34.207209] (-) TimerEvent: {}
+[34.328633] (-) TimerEvent: {}
+[34.429677] (-) TimerEvent: {}
+[34.536161] (-) TimerEvent: {}
+[34.670335] (-) TimerEvent: {}
+[34.690403] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_s32.cc.o\x1b[0m\n'}
+[34.776966] (-) TimerEvent: {}
+[34.889005] (-) TimerEvent: {}
+[34.963480] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_topk.cc.o\x1b[0m\n'}
+[35.029546] (-) TimerEvent: {}
+[35.160354] (-) TimerEvent: {}
+[35.269297] (-) TimerEvent: {}
+[35.286812] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/custom_call_status.cc.o\x1b[0m\n'}
+[35.370411] (-) TimerEvent: {}
+[35.475391] (-) TimerEvent: {}
+[35.576119] (-) TimerEvent: {}
+[35.738534] (-) TimerEvent: {}
+[35.852886] (-) TimerEvent: {}
+[35.996892] (-) TimerEvent: {}
+[36.110609] (-) TimerEvent: {}
+[36.231557] (-) TimerEvent: {}
+[36.451317] (-) TimerEvent: {}
+[36.583848] (-) TimerEvent: {}
+[36.697192] (-) TimerEvent: {}
+[36.797825] (-) TimerEvent: {}
+[36.878552] (xla_aot_runtime_src) StdoutLine: {'line': b'[ 96%] Built target tf_xla_runtime_objects\n'}
+[36.898357] (-) TimerEvent: {}
+[36.900602] (xla_aot_runtime_src) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libtf_xla_runtime.a\x1b[0m\n'}
+[36.998918] (-) TimerEvent: {}
+[37.099429] (-) TimerEvent: {}
+[37.232937] (-) TimerEvent: {}
+[37.360690] (-) TimerEvent: {}
+[37.461493] (-) TimerEvent: {}
+[37.562150] (-) TimerEvent: {}
+[37.663209] (-) TimerEvent: {}
+[37.765892] (-) TimerEvent: {}
+[37.866458] (-) TimerEvent: {}
+[37.967217] (-) TimerEvent: {}
+[38.069215] (-) TimerEvent: {}
+[38.173762] (-) TimerEvent: {}
+[38.275645] (-) TimerEvent: {}
+[38.354946] (xla_aot_runtime_src) StdoutLine: {'line': b'[100%] Built target tf_xla_runtime\n'}
+[38.367405] (xla_aot_runtime_src) CommandEnded: {'returncode': 0}
+[38.375946] (-) TimerEvent: {}
+[38.466787] (xla_aot_runtime_src) JobEnded: {'identifier': 'xla_aot_runtime_src', 'rc': 0}
+[38.467502] (-) EventReactorShutdown: {}

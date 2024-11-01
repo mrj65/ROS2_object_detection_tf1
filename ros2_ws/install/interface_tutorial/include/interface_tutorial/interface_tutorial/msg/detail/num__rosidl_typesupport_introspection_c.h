@@ -1,0 +1,1 @@
+/home/vboxuser/Shared/ros2_ws/build/interface_tutorial/rosidl_typesupport_introspection_c/interface_tutorial/msg/detail/num__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,27 @@
+[1.494s] Invoking command in '/home/vboxuser/Shared/ros2_ws/build/tensorflow': PYTHONPATH=/home/vboxuser/Shared/ros2_ws/build/tensorflow/prefix_override:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vboxuser/Shared/ros2_ws/build/tensorflow/build --no-deps
+[1.913s] running develop
+[1.914s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.914s]   warnings.warn(
+[2.236s] running egg_info
+[2.236s] creating tensorflow.egg-info
+[2.237s] writing tensorflow.egg-info/PKG-INFO
+[2.237s] writing dependency_links to tensorflow.egg-info/dependency_links.txt
+[2.237s] writing entry points to tensorflow.egg-info/entry_points.txt
+[2.238s] writing requirements to tensorflow.egg-info/requires.txt
+[2.238s] writing top-level names to tensorflow.egg-info/top_level.txt
+[2.238s] writing manifest file 'tensorflow.egg-info/SOURCES.txt'
+[2.240s] package init file 'prefix_override/__init__.py' not found (or not a regular file)
+[2.365s] reading manifest file 'tensorflow.egg-info/SOURCES.txt'
+[2.366s] writing manifest file 'tensorflow.egg-info/SOURCES.txt'
+[2.366s] running build_ext
+[2.367s] Creating /home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages/tensorflow.egg-link (link to .)
+[2.368s] Installing import_pb_to_tensorboard script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+[2.368s] Installing saved_model_cli script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+[2.368s] Installing tensorboard script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+[2.369s] Installing tf_upgrade_v2 script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+[2.369s] Installing tflite_convert script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+[2.369s] Installing toco script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+[2.369s] Installing toco_from_protos script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+[2.370s] 
+[2.370s] Installed /home/vboxuser/Shared/ros2_ws/build/tensorflow
+[2.563s] Invoked command in '/home/vboxuser/Shared/ros2_ws/build/tensorflow' returned '0': PYTHONPATH=/home/vboxuser/Shared/ros2_ws/build/tensorflow/prefix_override:/home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vboxuser/Shared/ros2_ws/build/tensorflow/build --no-deps

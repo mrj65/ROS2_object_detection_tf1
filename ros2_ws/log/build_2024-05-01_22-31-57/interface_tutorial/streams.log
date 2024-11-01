@@ -1,0 +1,129 @@
+[0.024s] Invoking command in '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Shared/ros2_ws/build/interface_tutorial -- -j4 -l4
+[0.496s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_generator_c[0m
+[0.496s] [  3%] Built target interface_tutorial__cpp
+[0.496s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_typesupport_fastrtps_cpp[0m
+[0.496s] [ 12%] Built target interface_tutorial__rosidl_generator_c
+[0.496s] [ 12%] Built target ament_cmake_python_symlink_interface_tutorial
+[0.496s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_typesupport_cpp[0m
+[0.497s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_typesupport_introspection_cpp[0m
+[0.497s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_typesupport_fastrtps_c[0m
+[0.497s] [ 22%] Built target interface_tutorial__rosidl_typesupport_fastrtps_cpp
+[0.497s] [ 32%] Built target interface_tutorial__rosidl_typesupport_cpp
+[0.497s] [ 41%] Built target interface_tutorial__rosidl_typesupport_fastrtps_c
+[0.497s] [ 51%] Built target interface_tutorial__rosidl_typesupport_introspection_cpp
+[0.497s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_typesupport_introspection_c[0m
+[0.497s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_typesupport_c[0m
+[0.497s] [ 61%] Built target interface_tutorial__rosidl_typesupport_introspection_c
+[0.497s] [ 70%] Built target interface_tutorial__rosidl_typesupport_c
+[0.497s] [ 70%] Built target interface_tutorial
+[0.497s] [ 74%] Built target interface_tutorial__py
+[0.497s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_generator_py[0m
+[0.497s] [ 80%] Built target interface_tutorial__rosidl_generator_py
+[0.497s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.498s] [ 87%] Built target interface_tutorial__rosidl_typesupport_fastrtps_c__pyext
+[0.498s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_typesupport_c__pyext[0m
+[0.498s] [ 93%] Built target interface_tutorial__rosidl_typesupport_c__pyext
+[0.504s] [35m[1mConsolidate compiler generated dependencies of target interface_tutorial__rosidl_typesupport_introspection_c__pyext[0m
+[0.520s] [100%] Built target interface_tutorial__rosidl_typesupport_introspection_c__pyext
+[0.608s] running egg_info
+[0.609s] writing interface_tutorial.egg-info/PKG-INFO
+[0.609s] writing dependency_links to interface_tutorial.egg-info/dependency_links.txt
+[0.610s] writing top-level names to interface_tutorial.egg-info/top_level.txt
+[0.613s] reading manifest file 'interface_tutorial.egg-info/SOURCES.txt'
+[0.614s] writing manifest file 'interface_tutorial.egg-info/SOURCES.txt'
+[0.662s] [100%] Built target ament_cmake_python_build_interface_tutorial_egg
+[0.971s] Invoked command in '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Shared/ros2_ws/build/interface_tutorial -- -j4 -l4
+[1.051s] Invoking command in '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Shared/ros2_ws/build/interface_tutorial
+[1.063s] -- Install configuration: ""
+[1.064s] -- Execute custom install script
+[1.065s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/ament_index/resource_index/rosidl_interfaces/interface_tutorial
+[1.065s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__functions.h
+[1.066s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__struct.h
+[1.066s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__type_support.h
+[1.067s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/num.h
+[1.067s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/rosidl_generator_c__visibility_control.h
+[1.068s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/library_path.sh
+[1.068s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/library_path.dsv
+[1.069s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[1.069s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.070s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__rosidl_typesupport_introspection_c.h
+[1.070s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.071s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__builder.hpp
+[1.071s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__struct.hpp
+[1.072s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__traits.hpp
+[1.072s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/num.hpp
+[1.073s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[1.073s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.074s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/include/interface_tutorial/interface_tutorial/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[1.074s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/pythonpath.sh
+[1.074s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/pythonpath.dsv
+[1.075s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial-0.0.0-py3.10.egg-info/PKG-INFO
+[1.075s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.076s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.076s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial-0.0.0-py3.10.egg-info/top_level.txt
+[1.077s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/__init__.py
+[1.078s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/_interface_tutorial_s.ep.rosidl_typesupport_c.c
+[1.078s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/_interface_tutorial_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.078s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/_interface_tutorial_s.ep.rosidl_typesupport_introspection_c.c
+[1.079s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.079s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.079s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.080s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/libinterface_tutorial__rosidl_generator_py.so
+[1.080s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg/__init__.py
+[1.080s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg/_num.py
+[1.081s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg/_num_s.c
+[1.081s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.082s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.082s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/interface_tutorial_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.083s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/msg/Num.idl
+[1.083s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/msg/Num.msg
+[1.084s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/ament_index/resource_index/package_run_dependencies/interface_tutorial
+[1.084s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/ament_index/resource_index/parent_prefix_path/interface_tutorial
+[1.084s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/ament_prefix_path.sh
+[1.085s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/ament_prefix_path.dsv
+[1.085s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/path.sh
+[1.086s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/environment/path.dsv
+[1.086s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/local_setup.bash
+[1.086s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/local_setup.sh
+[1.087s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/local_setup.zsh
+[1.087s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/local_setup.dsv
+[1.088s] -- Symlinking: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/package.dsv
+[1.100s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/ament_index/resource_index/packages/interface_tutorial
+[1.100s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/rosidl_cmake-extras.cmake
+[1.101s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.101s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.101s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/ament_cmake_export_targets-extras.cmake
+[1.101s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.101s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.102s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.102s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorialConfig.cmake
+[1.102s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorialConfig-version.cmake
+[1.102s] -- Up-to-date symlink: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/package.xml
+[1.102s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_generator_c.so
+[1.103s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_fastrtps_c.so
+[1.103s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_introspection_c.so
+[1.103s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_c.so
+[1.103s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_fastrtps_cpp.so
+[1.104s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_introspection_cpp.so
+[1.104s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_typesupport_cpp.so
+[1.149s] Listing '/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial'...
+[1.150s] Listing '/home/vboxuser/Shared/ros2_ws/install/interface_tutorial/local/lib/python3.10/dist-packages/interface_tutorial/msg'...
+[1.156s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/lib/libinterface_tutorial__rosidl_generator_py.so
+[1.156s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_cExport.cmake
+[1.159s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_cExport-noconfig.cmake
+[1.159s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_typesupport_fastrtps_cExport.cmake
+[1.159s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.159s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_introspection_cExport.cmake
+[1.159s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_cExport.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_cExport-noconfig.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_cppExport.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_introspection_cppExport.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_cppExport.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/interface_tutorial__rosidl_typesupport_cppExport-noconfig.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_pyExport.cmake
+[1.160s] -- Up-to-date: /home/vboxuser/Shared/ros2_ws/install/interface_tutorial/share/interface_tutorial/cmake/export_interface_tutorial__rosidl_generator_pyExport-noconfig.cmake
+[1.169s] Invoked command in '/home/vboxuser/Shared/ros2_ws/build/interface_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Shared/ros2_ws/build/interface_tutorial

@@ -1,0 +1,26 @@
+[1.003s] Invoking command in '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection': PYTHONPATH=/home/vboxuser/Shared/ros2_ws/build/ros_object_detection/prefix_override:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/build --no-deps symlink_data
+[1.320s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.320s]   warnings.warn(
+[1.371s] running develop
+[1.372s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.372s]   warnings.warn(
+[1.617s] running egg_info
+[1.617s] writing ros_object_detection.egg-info/PKG-INFO
+[1.618s] writing dependency_links to ros_object_detection.egg-info/dependency_links.txt
+[1.618s] writing entry points to ros_object_detection.egg-info/entry_points.txt
+[1.618s] writing requirements to ros_object_detection.egg-info/requires.txt
+[1.618s] writing top-level names to ros_object_detection.egg-info/top_level.txt
+[1.621s] reading manifest file 'ros_object_detection.egg-info/SOURCES.txt'
+[1.622s] writing manifest file 'ros_object_detection.egg-info/SOURCES.txt'
+[1.695s] running build_ext
+[1.695s] Creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages/ros-object-detection.egg-link (link to .)
+[1.696s] Installing detect script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[1.696s] Installing image_to_pcl script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[1.697s] Installing publish_video script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[1.697s] Installing show_on_pcl script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[1.697s] Installing show_tfs script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[1.697s] Installing show_trajectory script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[1.697s] 
+[1.697s] Installed /home/vboxuser/Shared/ros2_ws/build/ros_object_detection
+[1.697s] running symlink_data
+[1.753s] Invoked command in '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection' returned '0': PYTHONPATH=/home/vboxuser/Shared/ros2_ws/build/ros_object_detection/prefix_override:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/build --no-deps symlink_data

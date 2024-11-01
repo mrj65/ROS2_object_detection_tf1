@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src': /usr/bin/cmake --build /home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src -- -j4 -l4
+Invoked command in '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src' returned '0': /usr/bin/cmake --build /home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src -- -j4 -l4

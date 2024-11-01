@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating ros_object_detection.egg-info
+writing ros_object_detection.egg-info/PKG-INFO
+writing dependency_links to ros_object_detection.egg-info/dependency_links.txt
+writing entry points to ros_object_detection.egg-info/entry_points.txt
+writing requirements to ros_object_detection.egg-info/requires.txt
+writing top-level names to ros_object_detection.egg-info/top_level.txt
+writing manifest file 'ros_object_detection.egg-info/SOURCES.txt'
+reading manifest file 'ros_object_detection.egg-info/SOURCES.txt'
+writing manifest file 'ros_object_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages/ros-object-detection.egg-link (link to .)
+Installing detect script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+Installing image_to_pcl script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+Installing publish_video script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+Installing show_on_pcl script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+Installing show_tfs script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+
+Installed /home/vboxuser/Shared/ros2_ws/build/ros_object_detection
+running symlink_data
+creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index
+creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index/resource_index
+creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index/resource_index/packages
+symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/resource/ros_object_detection -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index/resource_index/packages
+symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/package.xml -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/detect_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/show_tfs_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/show_on_pcl_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/image_to_pcl_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/publish_video_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection

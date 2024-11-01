@@ -1,0 +1,37 @@
+[1.578s] Invoking command in '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection': PYTHONPATH=/home/vboxuser/Shared/ros2_ws/build/ros_object_detection/prefix_override:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/build --no-deps symlink_data
+[2.286s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.286s]   warnings.warn(
+[2.359s] running develop
+[2.360s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.360s]   warnings.warn(
+[2.648s] running egg_info
+[2.649s] creating ros_object_detection.egg-info
+[2.650s] writing ros_object_detection.egg-info/PKG-INFO
+[2.650s] writing dependency_links to ros_object_detection.egg-info/dependency_links.txt
+[2.650s] writing entry points to ros_object_detection.egg-info/entry_points.txt
+[2.651s] writing requirements to ros_object_detection.egg-info/requires.txt
+[2.651s] writing top-level names to ros_object_detection.egg-info/top_level.txt
+[2.651s] writing manifest file 'ros_object_detection.egg-info/SOURCES.txt'
+[2.654s] reading manifest file 'ros_object_detection.egg-info/SOURCES.txt'
+[2.655s] writing manifest file 'ros_object_detection.egg-info/SOURCES.txt'
+[2.729s] running build_ext
+[2.729s] Creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages/ros-object-detection.egg-link (link to .)
+[2.731s] Installing detect script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[2.731s] Installing image_to_pcl script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[2.731s] Installing publish_video script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[2.731s] Installing show_on_pcl script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[2.732s] Installing show_tfs script to /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/ros_object_detection
+[2.732s] 
+[2.732s] Installed /home/vboxuser/Shared/ros2_ws/build/ros_object_detection
+[2.732s] running symlink_data
+[2.733s] creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index
+[2.733s] creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index/resource_index
+[2.733s] creating /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index/resource_index/packages
+[2.733s] symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/resource/ros_object_detection -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ament_index/resource_index/packages
+[2.733s] symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/package.xml -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+[2.734s] symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/detect_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+[2.734s] symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/show_tfs_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+[2.734s] symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/show_on_pcl_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+[2.734s] symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/image_to_pcl_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+[2.735s] symbolically linking /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/launch/publish_video_launch.py -> /home/vboxuser/Shared/ros2_ws/install/ros_object_detection/share/ros_object_detection
+[2.808s] Invoked command in '/home/vboxuser/Shared/ros2_ws/build/ros_object_detection' returned '0': PYTHONPATH=/home/vboxuser/Shared/ros2_ws/build/ros_object_detection/prefix_override:/home/vboxuser/Shared/ros2_ws/install/ros_object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vboxuser/Shared/ros2_ws/build/ros_object_detection/build --no-deps symlink_data

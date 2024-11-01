@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating tensorflow.egg-info
+writing tensorflow.egg-info/PKG-INFO
+writing dependency_links to tensorflow.egg-info/dependency_links.txt
+writing entry points to tensorflow.egg-info/entry_points.txt
+writing requirements to tensorflow.egg-info/requires.txt
+writing top-level names to tensorflow.egg-info/top_level.txt
+writing manifest file 'tensorflow.egg-info/SOURCES.txt'
+reading manifest file 'tensorflow.egg-info/SOURCES.txt'
+writing manifest file 'tensorflow.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vboxuser/Shared/ros2_ws/install/tensorflow/lib/python3.10/site-packages/tensorflow.egg-link (link to .)
+Installing import_pb_to_tensorboard script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+Installing saved_model_cli script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+Installing tensorboard script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+Installing tf_upgrade_v2 script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+Installing tflite_convert script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+Installing toco script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+Installing toco_from_protos script to /home/vboxuser/Shared/ros2_ws/install/tensorflow/bin
+
+Installed /home/vboxuser/Shared/ros2_ws/build/tensorflow

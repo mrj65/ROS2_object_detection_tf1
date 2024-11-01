@@ -1,0 +1,1 @@
+/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs/rosidl_generator_py/ros_object_detection_msgs/__init__.py

@@ -1,0 +1,12 @@
+source;share/tensorflow/hook/path.ps1
+source;share/tensorflow/hook/path.dsv
+source;share/tensorflow/hook/path.sh
+source;share/tensorflow/hook/pythonpath.ps1
+source;share/tensorflow/hook/pythonpath.dsv
+source;share/tensorflow/hook/pythonpath.sh
+source;share/tensorflow/hook/pythonscriptspath.ps1
+source;share/tensorflow/hook/pythonscriptspath.dsv
+source;share/tensorflow/hook/pythonscriptspath.sh
+source;../../build/tensorflow/share/tensorflow/hook/pythonpath_develop.ps1
+source;../../build/tensorflow/share/tensorflow/hook/pythonpath_develop.dsv
+source;../../build/tensorflow/share/tensorflow/hook/pythonpath_develop.sh

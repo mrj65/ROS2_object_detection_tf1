@@ -1,0 +1,8 @@
+[console_scripts]
+detect = ros_object_detection.detect:main
+image_to_pcl = ros_object_detection.image_to_pcl:main
+publish_video = ros_object_detection.publish_video:main
+show_on_pcl = ros_object_detection.show_on_pcl:main
+show_tfs = ros_object_detection.show_tfs:main
+show_trajectory = ros_object_detection.show_trajectory:main
+

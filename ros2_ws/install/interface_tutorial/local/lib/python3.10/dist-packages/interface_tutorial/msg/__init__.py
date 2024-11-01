@@ -1,0 +1,1 @@
+/home/vboxuser/Shared/ros2_ws/build/interface_tutorial/rosidl_generator_py/interface_tutorial/msg/__init__.py

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros_object_detection_msgs/msg/BoundingBox.msg
+// generated code does not contain a copyright notice
+
+
+module ros_object_detection_msgs {
+  module msg {
+    struct BoundingBox {
+      double xmin;
+
+      double ymin;
+
+      double xmax;
+
+      double ymax;
+
+      string data;
+
+      double confidence;
+    };
+  };
+};

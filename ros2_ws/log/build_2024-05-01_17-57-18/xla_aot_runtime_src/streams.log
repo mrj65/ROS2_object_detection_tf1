@@ -1,0 +1,65 @@
+[0.007s] Invoking command in '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src': /usr/bin/cmake /home/vboxuser/Shared/ros2_ws/tf-env/lib/python3.10/site-packages/tensorflow/xla_aot_runtime_src -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Shared/ros2_ws/install/xla_aot_runtime_src
+[0.017s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.017s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.018s]   contain a literal, direct call to the project() command.  Add a line of
+[0.018s]   code such as
+[0.018s] 
+[0.018s]     project(ProjectName)
+[0.018s] 
+[0.019s]   near the top of the file, but after cmake_minimum_required().
+[0.019s] 
+[0.019s]   CMake is pretending there is a "project(Project)" command on the first
+[0.019s]   line.
+[0.019s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.019s] [0m
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.190s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting C compiler ABI info
+[0.543s] -- Detecting C compiler ABI info - done
+[0.577s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.578s] -- Detecting C compile features
+[0.579s] -- Detecting C compile features - done
+[0.584s] -- Detecting CXX compiler ABI info
+[0.973s] -- Detecting CXX compiler ABI info - done
+[0.973s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.974s] -- Detecting CXX compile features
+[0.974s] -- Detecting CXX compile features - done
+[0.974s] -- Configuring done
+[0.982s] -- Generating done
+[0.983s] -- Build files have been written to: /home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src
+[0.996s] Invoked command in '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src' returned '0': /usr/bin/cmake /home/vboxuser/Shared/ros2_ws/tf-env/lib/python3.10/site-packages/tensorflow/xla_aot_runtime_src -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Shared/ros2_ws/install/xla_aot_runtime_src
+[0.997s] Invoking command in '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src': /usr/bin/cmake --build /home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src -- -j4 -l4
+[1.239s] [  3%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/tensorflow/compiler/tf2xla/xla_compiled_cpu_function.cc.o[0m
+[1.253s] [  6%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/tsl/framework/contraction/eigen_contraction_kernel.cc.o[0m
+[1.269s] [ 12%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/cpu_function_runtime.cc.o[0m
+[1.277s] [ 12%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/tsl/platform/default/env_time.cc.o[0m
+[1.559s] [ 16%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/executable_run_options.cc.o[0m
+[4.319s] [ 19%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_conv3d.cc.o[0m
+[4.319s] [ 22%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_conv2d.cc.o[0m
+[5.128s] [ 25%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_custom_call_status.cc.o[0m
+[5.589s] [ 29%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_fft.cc.o[0m
+[5.667s] [ 32%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_fork_join.cc.o[0m
+[8.052s] [ 35%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_fp16.cc.o[0m
+[8.130s] [ 38%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_key_value_sort.cc.o[0m
+[9.031s] [ 41%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_c128.cc.o[0m
+[9.946s] [ 45%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_c64.cc.o[0m
+[16.385s] [ 48%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_f16.cc.o[0m
+[17.169s] [ 51%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_f32.cc.o[0m
+[19.531s] [ 54%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_f64.cc.o[0m
+[20.806s] [ 58%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_s32.cc.o[0m
+[25.043s] [ 61%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_pow.cc.o[0m
+[25.079s] [ 64%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_conv2d.cc.o[0m
+[28.398s] [ 67%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_conv3d.cc.o[0m
+[28.598s] [ 70%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_fft.cc.o[0m
+[28.629s] [ 74%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_c128.cc.o[0m
+[29.942s] [ 77%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_c64.cc.o[0m
+[30.976s] [ 80%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_f16.cc.o[0m
+[31.505s] [ 83%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_f32.cc.o[0m
+[32.380s] [ 87%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_f64.cc.o[0m
+[32.924s] [ 90%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_s32.cc.o[0m
+[33.197s] [ 93%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_topk.cc.o[0m
+[33.521s] [ 96%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/custom_call_status.cc.o[0m
+[35.112s] [ 96%] Built target tf_xla_runtime_objects
+[35.134s] [100%] [32m[1mLinking CXX static library libtf_xla_runtime.a[0m
+[36.589s] [100%] Built target tf_xla_runtime
+[36.601s] Invoked command in '/home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src' returned '0': /usr/bin/cmake --build /home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src -- -j4 -l4

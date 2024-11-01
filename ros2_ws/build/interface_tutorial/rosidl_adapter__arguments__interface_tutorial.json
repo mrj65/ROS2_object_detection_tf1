@@ -1,0 +1,6 @@
+{
+  "package_name": "interface_tutorial",
+  "non_idl_tuples": [
+    "/home/vboxuser/Shared/ros2_ws/src/interface_tutorial:msg/Num.msg"
+  ]
+}

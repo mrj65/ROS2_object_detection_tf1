@@ -1,0 +1,48 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/Shared/ros2_ws/build/xla_aot_runtime_src
+[  3%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/tensorflow/compiler/tf2xla/xla_compiled_cpu_function.cc.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/tsl/framework/contraction/eigen_contraction_kernel.cc.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/cpu_function_runtime.cc.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/tsl/platform/default/env_time.cc.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/executable_run_options.cc.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_conv3d.cc.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_conv2d.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_custom_call_status.cc.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_fft.cc.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_fork_join.cc.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_fp16.cc.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_key_value_sort.cc.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_c128.cc.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_c64.cc.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_f16.cc.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_f32.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_f64.cc.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_matmul_s32.cc.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_pow.cc.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_conv2d.cc.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_conv3d.cc.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_fft.cc.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_c128.cc.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_c64.cc.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_f16.cc.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_f32.cc.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_f64.cc.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_single_threaded_matmul_s32.cc.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/cpu/runtime_topk.cc.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/tf_xla_runtime_objects.dir/xla/service/custom_call_status.cc.o[0m
+[ 96%] Built target tf_xla_runtime_objects
+[100%] [32m[1mLinking CXX static library libtf_xla_runtime.a[0m
+[100%] Built target tf_xla_runtime

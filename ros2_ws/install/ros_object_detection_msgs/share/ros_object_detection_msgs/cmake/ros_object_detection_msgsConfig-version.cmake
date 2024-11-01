@@ -1,0 +1,1 @@
+/home/vboxuser/Shared/ros2_ws/build/ros_object_detection_msgs/ament_cmake_core/ros_object_detection_msgsConfig-version.cmake
